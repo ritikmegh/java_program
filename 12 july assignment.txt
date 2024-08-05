@@ -1,0 +1,47 @@
+ 1) public class Main{
+
+	public static void main(String[] args) {
+		System.out.println("hello world");
+	}
+}
+
+
+ 2) public class Main{
+    public static void main(String args[]){
+        System.out.println("ritik");
+        System.out.println("ganesh");
+        System.out.println("shankar");
+        System.out.println("harsh");
+        System.out.println("yash");
+    }
+}
+
+3) public class Main{
+
+	public static void main(String[] args) {
+		System.out.println("india");
+		System.out.println("pakistan");
+		System.out.println("china");
+		System.out.println("newzeland");
+		System.out.println("australia");
+	}
+}
+
+4) public class Main{
+    public static void main(String args[]){
+        System.out.println("mango");
+        System.out.println("sapodilla");
+        System.out.println("banana");
+        System.out.println("pomegranate");
+        System.out.println("apple");
+    }
+}
+
+5) public class Main{
+    public static void main(String args[]){
+        System.out.println("Delhi");
+        System.out.println("Kolkata");
+        System.out.println("Bangalore");
+        System.out.println("Hydrabad");
+    }
+}

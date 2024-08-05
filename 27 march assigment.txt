@@ -1,0 +1,705 @@
+1)
+(pw)
+reverse number :46467 : through while loop (laptop +dry run)
+#include<stdio.h>
+int main()
+{
+    int num=7291;
+    int rem,sum=0;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    printf("sum%d",sum);
+    return 0;
+}
+--------------------------------------
+
+1684 : (lapotop +dry run)
+
+#include<stdio.h>
+int main()
+{
+    int num=1684;
+    int rem,sum=0;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    printf("sum%d",sum);
+    return 0;
+}
+---------------------------------------
+
+2)
+(pw)
+
+pallindrome number : 
+12321 :dry run +laptop
+5345 :dry run +laptop 
+12345421 :dry run +laptop 
+
+#include<stdio.h>
+int main()
+{
+    int num=12321;
+    int rem,sum=0;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    if(sum == temp)
+    {
+        printf("pallindrome");
+    }
+    else
+    {
+        printf("not a pallondrome");
+    }
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int num=5345;
+    int rem,sum=0;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    if(sum == temp)
+    {
+        printf("pallindrome");
+    }
+    else
+    {
+        printf("not a pallondrome");
+    }
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int num=12345421;
+    int rem,sum=0;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    if(sum == temp)
+    {
+        printf("pallindrome");
+    }
+    else
+    {
+        printf("not a pallondrome");
+    }
+    return 0;
+}
+-------------------------------------------------
+
+3)armstrog number :
+(pw)
+
+123 :dry run +laptop
+153 :dry run +laptop
+157 :dry run +laptop
+
+
+#include<stdio.h>
+int main()
+{
+    int num=123;
+    int rem,sum=0;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    if(sum == temp)
+    {
+        printf("armstrong");
+    }
+    else
+    {
+        printf("not");
+    }
+    return 0;
+}
+-------------------------------------------
+
+
+#include<stdio.h>
+int main()
+{
+    int num=153;
+    int rem,sum=0;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    if(sum == temp)
+    {
+        printf("armstrong");
+    }
+    else
+    {
+        printf("not");
+    }
+    return 0;
+}
+--------------------------------------
+
+#include<stdio.h>
+int main()
+{
+    int num=157;
+    int rem,sum=0;
+    int temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    if(sum == temp)
+    {
+        printf("armstrong");
+    }
+    else
+    {
+        printf("not");
+    }
+    return 0;
+}
+--------------------------------------------
+
+
+5)
+user input :
+table print :2 table 
+#include<stdio.h>
+int main()
+{
+    int a,i;
+    printf("enter the number= ");
+    scanf("%d",&a);
+    for(i=1;i<=10;i++)
+    {
+       printf("%d\n",a*i); 
+     
+    }
+    return 0;
+}
+------------------------------------------
+
+
+4)
+
+
+revise :
+s : 
+	w :with third variable number swap 
+	o :without third variable number swap 
+
+v :voter id check eligible vote 
+
+g :gender 
+
+m :month 
+
+w :week 
+
+t :three number maximum check 
+
+c :calculator 
+	a :add
+	s :sub
+	d :div
+	m :multi 
+
+l :vowel and consonant check 
+
+e :even and odd number 
+
+i :45--->89 even number 
+
+p :pallindrome number 
+
+r :reverse number 
+
+n :armstrong number 
+
+q :89--->12 odd number print 
+
+k :marksheet 
+
+j :electricity bill code
+
+
+#include <stdio.h>
+int main()
+{
+    char a;
+    printf("enter the character: ");
+    scanf(" %c",&a);
+    if(a=='s')
+    {
+        char a;
+    printf("enter character :  ");
+    scanf(" %c",&a);
+    if(a=='o')
+    {
+        int num1;
+        printf("enter the value of num1 : ");
+        scanf("%d",&num1);
+        int num2;
+        printf("enter the value of num2 : ");
+        scanf("%d",&num2);
+        num1=num1+num2;
+        num2=num1-num2;
+        num1=num1-num2;
+        printf("the swap value of num1 :  %d\n",num1);
+       printf("the swap value of num2 :  %d\n",num2); 
+    }
+   else if (a=='w')
+   {
+        int num1;
+        printf("enter the value of num1 : ");
+        scanf("%d",&num1);
+        int num2;
+        printf("enter the value of num2 : ");
+        scanf("%d",&num2);
+        int num3;
+        num3=num1;
+        num1=num2;
+        num2=num3;
+        printf("the swap value of num1 :  %d\n",num1);
+       printf("the swap value of num2 :  %d\n",num2);
+   }
+   else
+    {
+        printf("input missmatch");
+    }
+
+    }
+    else if(a=='v')
+    {
+        int age;
+     printf("enter age: ");
+     scanf("%d",&age);
+     if(age>18)
+     {
+         int id;
+         printf("voter is eligible for vote ");
+         scanf("%d",&id);
+    }
+    else
+    {
+        printf("voter is not eligible for vote");
+    }
+    }
+    else if(a=='g')
+    {
+         char a;
+    printf("enter the character:  ");
+    scanf(" %c",&a);
+    if(a=='m')
+    {
+       printf("male");
+    }
+   else if(a=='f')
+    {
+        printf("female");
+    }
+    else
+    {
+        printf("not valid");
+    }
+
+    }
+    else if(a=='m')
+    {
+        int a;
+  printf ("enter the number of month:  ");
+  scanf ("%d", &a);
+  if (a==1)
+	{
+	  printf ("january");
+	}
+  else if (a==2)
+	{
+	  printf ("february");
+	}
+  else if (a==3)
+	{
+	  printf ("march");
+	}
+  else if (a==4)
+	{
+	  printf ("april");
+	}
+  else if (a==5)
+	{
+	  printf ("may");
+	}
+  else if (a==6)
+	{
+	  printf ("june");
+	}
+  else if (a==7)
+	{
+	  printf ("july");
+	}
+  else if (a==8)
+	{
+	  printf ("august");
+	}
+  else if (a==9)
+	{ 
+	    printf("september");
+	}
+	else if (a==10)
+	{
+	    printf("october");
+	}
+		else if (a==11)
+		{
+		   printf("november");
+		}
+		else if(a==12)
+		{
+		    printf("december");
+		}
+		else
+		{
+		    printf("input invalid");
+		}
+
+    }
+    else if(a=='w')
+    {
+         int a;
+  printf ("enter the number of day:  ");
+  scanf ("%d", &a);
+  if (a==1)
+	{
+	  printf ("sunday");
+	}
+  else if (a==2)
+	{
+	  printf ("monday");
+	}
+  else if (a==3)
+	{
+	  printf ("tuesday");
+	}
+  else if (a==4)
+	{
+	  printf ("wednesday");
+	}
+  else if (a==5)
+	{
+	  printf ("thursday");
+	}
+  else if (a==6)
+	{
+	  printf ("friday");
+	}
+  else if (a==7)
+	{
+	  printf ("saturday");
+	}
+ 
+	else
+     {
+	  printf("input invalid");
+     }
+
+    }
+    else if(a=='t')
+    {
+        int a,b,c;
+  printf ("enter the value of a,b and c:  ");
+  scanf ("%d %d %d", &a,&b,&c);
+  if (a>b && a>c)
+	{
+    printf("a is maximum ");
+	}
+  else if (a<b && c<b)
+	{
+    printf("b is maximum ");
+	}
+	else
+	{
+	    printf("c is maximum ");
+	}
+
+    }
+    else if(a=='c')
+    {
+        char a;
+  printf ("enter the character:  ");
+  scanf (" %c", &a);
+  if (a=='a')
+	{
+	int e;
+    int b;
+    printf("the value of e : ");
+    scanf("%d",&e);
+    printf("the value of b : ");
+    scanf("%d",&b);
+    int c=e+b;
+    printf("%d",c);
+	}
+  else if (a=='s')
+	{
+	int f;
+    int g;
+    printf("the value of f : ");
+    scanf("%d",&f);
+    printf("the value of g : ");
+    scanf("%d",&g);
+    int c=f-g;
+    printf("%d",c);
+	}
+  else if (a=='m')
+	{
+	 int h;
+    int i;
+    printf("the value of h : ");
+    scanf("%d",&h);
+    printf("the value of i : ");
+    scanf("%d",&i);
+    int c=h*i;
+    printf("%d",c); 
+	}
+  else if (a=='d')
+	{
+	  int j;
+    int k;
+    printf("the value of j : ");
+    scanf("%d",&j);
+    printf("the value of k : ");
+    scanf("%d",&k);
+    int c=j/k;
+    printf("%d",c);
+	}
+	else
+     {
+	  printf("input invalid");
+     }
+
+    }
+    else if(a=='l')
+    {
+         char a;
+    printf("enter the character:  ");
+    scanf(" %c",&a);
+    if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u')
+    {
+       printf("vowel");
+    }
+   else
+    {
+        printf("consonant");
+    }
+
+    }
+    else if(a=='e')
+    {
+        int a;
+    printf("enter value of a: ");
+    scanf("%d",&a);
+    if(a%2==0)
+    {
+        printf("number is even");
+    }
+    else
+    {
+        printf("number is odd");
+    }
+
+    }
+    else if(a=='i')
+    {
+         int a=45;
+    while(a<=89)
+    {
+        printf(" %d",a);
+        a++;
+    }
+
+    }
+    else if(a=='p')
+    {
+        int num;
+        printf("enter the num: ");
+        scanf("%d",&num);
+  int rem, sum = 0;
+  int temp=num;
+  while (num > 0)
+	{
+	  rem = num % 10;
+	  sum = sum * 10 + rem;
+	  num = num / 10;
+	}
+	if(sum==temp)
+	{
+	    printf("pallindrome");
+	}
+	else
+	{
+	    printf("not a pallindrome");
+	}
+  printf ("sum:  %d", sum);
+    }
+    else if(a=='r')
+    {
+         int num;
+        printf("enter the num: ");
+        scanf("%d",&num);
+    int rem,sum=0;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    printf("sum:  %d",sum);
+    }
+    else if(a=='n')
+    {
+        int num;
+       printf("enter the num: ");
+        scanf("%d",&num); 
+  int rem, sum = 0;
+  int temp=num;
+  while (num > 0)
+	{
+	  rem = num % 10;
+	  sum = sum +rem*rem*rem;
+	  num = num / 10;
+	}
+	if(sum==temp)
+	{
+	    printf("armstrong");
+	}
+	else
+	{
+	    printf("not a armstrong");
+	}
+  printf ("sum:  %d", sum);
+    }
+    else if(a=='q')
+    {
+         int a=89;
+    while(a>=12)
+    {
+        if(a%2==1)
+        {
+        printf(" %d",a);
+        }
+        a--;
+    }
+
+    }
+    else if(a=='k')
+    {
+         int a;
+    printf("enter the percentage:  ");
+    scanf("%d",&a);
+    if(a>=90 && a<=100)
+    {
+       printf("A");
+    }
+   else if (a>=60 && a<=89)
+   {
+      printf("B+"); 
+   }
+   else if (a>=50 && a<=59)
+   {
+       printf("B");
+   }
+   else
+    {
+        printf("fail");
+    }
+
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

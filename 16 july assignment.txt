@@ -1,0 +1,230 @@
+1) public class Main{
+  public static void main(String args[]){
+      int a=67;
+      System.out.println(a);
+      
+  }
+}
+
+2) public class Main{
+    public static void main(String args[]){
+    float a=2.35f;    
+    
+        System.out.println(a);
+    }
+}
+
+3) public class Main{
+
+	public static void main(String[] args) {
+	    char a='w';
+		System.out.println(a);
+	}
+}
+
+4)  public class Main{
+    public static void main(String args[]){
+        int a=12342;
+        System.out.println(a);
+        float b=4.56f;
+        System.out.println(b);
+        char c='f';
+        System.out.println(c);
+        int d=-32;
+        System.out.println(d);
+        float e=4.5f;
+        System.out.println(e);
+        
+    }
+}
+
+ 5)   public class Main{
+    public static  void main(String args[]){
+      int a=34;
+      int b=74;
+      int sum=a+b;
+      System.out.println(sum);
+    }
+}                                                                                                 
+
+
+6)  public class Main{
+    public static void main(String args[]){
+        int a=23;
+        int b=6;
+        int diff=a-b;
+        System.out.println(diff);
+    }
+}   
+
+
+7) public class Main{
+    public static void main(String args[]){
+        int a=45;
+        int b=2;
+        int mul=a*b;
+        System.out.println(mul);
+        
+    }
+}
+
+8) 56/2 
+ public class Main{
+    public static void main(String args[]){
+        int a=56;
+        int b=2;
+        int div=a/b;
+        System.out.println(div);
+        
+    }
+}
+
+9) 45+78+23+12
+ public class Main{
+    public static void main(String args[]){
+        int a=45;
+        int b=78; 
+        int c=23;
+        int d=12;
+        int sum=a+b+c+d;
+        System.out.println(sum);
+        
+    }
+}
+ 10) 
+56*34+12/2-13
+public class Main{
+    public static void main(String args[]){
+        int a=56;
+        int b=34; 
+        int c=12;
+        int d=2;
+        int e=13;
+        int sum=a*b+c/d-e;
+        System.out.println(sum);
+        
+    }
+}
+11) 1.2*6.7-4.5/2 
+public class Main{
+    public static void main(String args[]){
+        float a=1.2f;
+        float b=6.7f; 
+        float c=4.5f;
+        int e=2;
+        float sum=a*b-c/e;
+        System.out.println(sum);
+        
+    }
+}
+
+12) 1.6*(12-2)/2+7.8-1.5 
+
+public class Main{
+    public static void main(String args[]){
+        float a=1.6f;
+        int b=12;
+        int c=2;
+        int d=2;
+        float e=7.8f;
+        float f=1.5f;
+        float sum=a*(b-c)/d+e-f;
+        System.out.println(sum);
+    }
+}
+
+13) 4.5*1.2-(82/2)-5.6 +1.234
+
+public class Main{
+    public static void main(String args[]){
+        float a=4.5f;
+        float b=1.2f;
+        int c=82;
+        int d=2;
+        float e=5.6f;
+        float f=1.234f;
+        float sum=a*b-(c/d)-e+f;
+        System.out.println(sum);
+    }
+}
+14)  
+8*1+(4-2)/1+6
+
+public class Main{
+    public static void main(String args[]){
+       int a=8;
+       int b=1;
+       int c=4;
+       int d=2;
+       int e=1;
+       int f=6;
+       int sum=a*b+(c-d)/e+f;
+        System.out.println(sum);
+    }
+}
+15) 3.4+1.2*(3.7-1.2)/2+6.8 
+
+public class Main{
+    public static void main(String args[]){
+      float a=3.4f;
+      float b=1.2f;
+      float c=3.7f;
+      float d=1.2f;
+      int e=2;
+      float  f=6.8f;
+      float sum=a+b*(c-d)/e+f;
+        System.out.println(sum);
+    }
+}
+16)  8.9*1.67-(6.21-5.6)+7.8-34 +157 
+public class Main{
+    public static void main(String args[]){
+   float a=8.9f;
+   float b=1.67f;
+   float c=6.21f;
+   float d=5.6f;
+   float e=7.8f;
+   int f=34;
+   int g=157;
+   float sum=a*b-(c-d)+e-f+g;
+        System.out.println(sum);
+    }
+}
+------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
