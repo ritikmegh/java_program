@@ -75,7 +75,7 @@ public class Main{
     }
 }
 -----------------------------------------------------------------------
-5)4)print 2 table : 
+5)print 2 table : 
 like this format : 
 2 X 1 =2 
 2 X 2 =4 
