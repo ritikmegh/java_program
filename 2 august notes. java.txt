@@ -1,0 +1,81 @@
+class A {
+    // no return and no argument
+    void show() {
+    }
+}
+ class Main{
+    public static void main(String []args){
+
+        System.out.println("hello world");
+        //create object
+        A p=new A();
+
+    }
+}-------------------------------------------------------------------------
+
+import java.util.*;
+class A {
+    // no return and no argument
+    void show() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a= ");
+        int a = sc.nextInt();
+        System.out.println("enter the value of b= ");
+        int b = sc.nextInt();
+        int c = a + b;
+        System.out.println(c);
+    }
+}
+class B {
+    void show1() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the value of a= ");
+        int a = sc.nextInt();
+        System.out.println("enter the value of b= ");
+        int b = sc.nextInt();
+        int c = a - b;
+        System.out.println(c);
+    }
+}
+class Main{
+    public  static  void main(String []args){
+        A p=new A();
+        p.show();
+
+        B k=new B();
+        k.show1();
+
+
+    }
+}
+--------------------------------------------------------------------------
+class A{
+    void show(int a){
+        System.out.println(a);
+    }
+}
+class Main{
+    public static void main(String []args){
+        A p=new A();
+        p.show(56);
+
+    }
+}
+-------------------------------------------------------------------------
+import java.util.*;
+class A{
+    void show(int a, int b){
+        int c=a+b;
+        System.out.println(c);
+    }
+}
+class Main{
+    public static void main(String []args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        A p=new A();
+        p.show(a,b);
+
+    }
+}
