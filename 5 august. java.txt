@@ -1,0 +1,192 @@
+1)import java.util.*;
+class A {
+    int add() {
+        int a = 2;
+        int b = 5;
+        int c = a + b;
+        return c;
+    }
+
+   int sub()  {
+        int d = 5;
+        int e = 4;
+        int f = d - e;
+        return f;
+    }
+    int multi(){
+        int w=3;
+        int q=2;
+        int r=w*q;
+        return r;
+    }
+    int div(){
+        int h=2;
+        int o=2;
+        int p=h/0;
+        return p;
+    }
+
+
+
+
+    }
+ class Main{
+    public static void main(String []args){
+        A k=new A();
+        System.out.println(k.add());
+        A m=new A();
+        System.out.println(m.sub());
+        
+
+    }
+
+    }
+-----------------------------------------------------------------------
+2)import java.util.*;
+class A {
+    int add() {
+        int a = 2;
+        int b = 5;
+        int c = a + b;
+        return c;
+    }
+}
+    class B {
+
+        int sub() {
+            int d = 5;
+            int e = 4;
+            int f = d - e;
+            return f;
+        }
+    }
+    class C {
+        int multi() {
+            int w = 3;
+            int q = 2;
+            int r = w * q;
+            return r;
+
+    }
+    class D {
+        int div() {
+            int h = 2;
+            int o = 2;
+            int p = h / 0;
+            return p;
+        }
+    }
+}
+
+   
+ class Main {
+     public static void main(String[] args) {
+         A k = new A();
+        System.out.println(k.add());
+          B g = new B();
+        System.out.println( g.sub());
+         
+     
+
+
+     }
+
+ }
+
+---------------------------------------------------------------------
+
+4)covariant return type : 
+
+ class A
+add()
+
+class B 
+sub()
+
+class C
+multi()
+
+class D
+div()
+
+class Main 
+mod()
+access method 
+
+class A {
+	A  add() {
+		int a=3;
+		int b=5;
+		int c=a+b;
+		System.out.println(c);
+		return this;
+	}
+}
+class B {
+	B sub() {
+		int a=5;
+		int b=3;
+		int c=a-b;
+		System.out.println(c);
+		return this;
+	}
+}
+class C {
+	C multi() {
+		int a=5;
+		int b=7;
+		int c=a*b;
+		System.out.println(c);
+		return this;
+	}
+}
+class D {
+	D div() {
+		int a=45;
+		int b=9;
+		int c=a/b;
+		System.out.println(c);
+		return this;
+	}
+}
+public class Main {
+	public static void main(String []args) {
+		A k=new A();
+		k.add();
+
+		B s=new B();
+		s.sub();
+		
+		C c=new C();
+		c.multi();
+		 
+
+
+	}
+}
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
