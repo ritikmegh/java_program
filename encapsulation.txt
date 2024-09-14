@@ -1,0 +1,63 @@
+class A {
+    // instance variable
+    int a;
+
+    void show() {
+        System.out.println(a);
+    }
+}
+
+public class Main1 {
+    public static void main(String[] args) {
+        int a =9;// local variable
+        System.out.println(a);
+        A p = new A();
+        p.show();
+    }
+}
+------------------------------------------------------------
+pass constant value through another way : 
+class A {
+    int a, b;
+
+    void add(int k, int j) {
+        a = k;
+        b = j;
+    }
+
+    void display() {
+        System.out.println(a + " " + b);
+    }
+}
+
+public class Main1 {
+    public static void main(String[] args) {
+        A p = new A();
+        p.add(2, 4);
+        p.display();
+    }
+}
+---------------------------------------------------------------
+this :covariant return type 
+this :local variable k through instance variable ki value pss krta hey 
+
+third way : 
+import java.util.*;
+
+class A {
+    int a, b;
+
+    void show(int a, int b) {
+        this.a = a;
+        this.b = b;
+        System.out.println(a + " " + b);
+    }
+}
+
+public class Main1 {
+    public static void main(String[] args) {
+        A k = new A();
+        k.show(4, 6);
+    }
+}
+-------------------------------------------------------------
